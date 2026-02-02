@@ -14,14 +14,6 @@ struct TreeNode {
             right(right) {}
 };
 
-void clear(TreeNode*& t) {
-    if (t == nullptr) return;
-    clear(t->left);
-    clear(t->right);
-    delete t;
-    t = nullptr;
-}
-
 class Solution {
 private:
     void dfs(int l, int r, std::vector<TreeNode*>& res) {
@@ -57,15 +49,5 @@ public:
 };
 
 int main() {
-    int n;
-    std::cin >> n;
-
-    Solution s;
-    auto res = s.generateTrees(n);
-
-    std::cout << res.size() << '\n';
-
-    for (auto& it : res) {
-        clear(it);
-    }
+    return 0;
 }
