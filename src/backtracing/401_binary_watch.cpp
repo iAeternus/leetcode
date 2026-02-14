@@ -1,3 +1,4 @@
+//! https://leetcode.cn/problems/binary-watch
 #include <bits/stdc++.h>
 
 class Solution {

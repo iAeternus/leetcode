@@ -1,5 +1,5 @@
-// @see https://leetcode.cn/problems/path-sum
-// @see https://leetcode.cn/problems/path-sum-ii
+//! https://leetcode.cn/problems/path-sum
+//! https://leetcode.cn/problems/path-sum-ii
 #include <bits/stdc++.h>
 
 struct TreeNode {

@@ -1,4 +1,4 @@
-// @see https://leetcode.cn/problems/combinations
+//! https://leetcode.cn/problems/combinations
 #include <bits/stdc++.h>
 
 class Solution {

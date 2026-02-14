@@ -1,3 +1,4 @@
+//! https://leetcode.cn/problems/additive-number
 #include <bits/stdc++.h>
 
 class Solution {

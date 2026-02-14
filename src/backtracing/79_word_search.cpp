@@ -1,4 +1,4 @@
-// @see https://leetcode.cn/problems/word-search
+//! https://leetcode.cn/problems/word-search
 #include <bits/stdc++.h>
 
 class Solution {

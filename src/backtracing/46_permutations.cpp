@@ -1,5 +1,5 @@
-/// https://leetcode.cn/problems/permutations
-/// https://leetcode.cn/problems/permutations-ii
+//! https://leetcode.cn/problems/permutations
+//! https://leetcode.cn/problems/permutations-ii
 #include <bits/stdc++.h>
 
 class Solution {

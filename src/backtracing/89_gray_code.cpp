@@ -1,4 +1,4 @@
-// @see https://leetcode.cn/problems/gray-code
+//! https://leetcode.cn/problems/gray-code
 #include <bits/stdc++.h>
 
 class Solution {

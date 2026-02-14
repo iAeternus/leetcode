@@ -1,5 +1,5 @@
-/// https://leetcode.cn/problems/combination-sum
-/// https://leetcode.cn/problems/combination-sum-ii
+//! https://leetcode.cn/problems/combination-sum
+//! https://leetcode.cn/problems/combination-sum-ii
 #include <bits/stdc++.h>
 
 class Solution {

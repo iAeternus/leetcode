@@ -1,3 +1,4 @@
+//! https://leetcode.cn/problems/n-queens
 #include <bits/stdc++.h>
 
 class Solution {

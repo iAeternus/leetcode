@@ -1,4 +1,4 @@
-/// https://leetcode.cn/problems/generate-parentheses
+//! https://leetcode.cn/problems/generate-parentheses
 #include <bits/stdc++.h>
 
 class Solution {

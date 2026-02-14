@@ -1,5 +1,5 @@
-// @see https://leetcode.cn/problems/unique-binary-search-trees
-// @see https://leetcode.cn/problems/unique-binary-search-trees-ii
+//! https://leetcode.cn/problems/unique-binary-search-trees
+//! https://leetcode.cn/problems/unique-binary-search-trees-ii
 #include <bits/stdc++.h>
 
 class Solution {
