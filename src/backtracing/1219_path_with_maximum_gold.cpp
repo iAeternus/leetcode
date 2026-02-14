@@ -1,3 +1,5 @@
+//! https://leetcode.cn/problems/path-with-maximum-gold
+//! 不知为何会编译错误，可能是编译器行为不一致
 #include <bits/stdc++.h>
 
 class Solution {
@@ -53,5 +55,14 @@ public:
 };
 
 int main() {
+    Solution s;
+    std::vector<std::vector<int>> grid = {
+        {0, 6, 0},
+        {5, 8, 7},
+        {0, 9, 0},
+    };
+
+    std::cout << s.getMaximumGold(grid) << '\n';
+
     return 0;
 }
