@@ -125,7 +125,7 @@
 
   // Code Runner 配置
   "code-runner.executorMap": {
-    "cpp": "cd $workspaceRoot; if (!(Test-Path build)) { mkdir build }; g++ -std=c++17 -Wall -Wextra -O2 $fullFileName -o build/$fileNameWithoutExt.exe; .\\build\\$fileNameWithoutExt.exe"
+    "cpp": "cd $workspaceRoot; if (!(Test-Path build)) { mkdir build }; g++ -std=c++23 -Wall -Wextra -O2 $fullFileName -o build/$fileNameWithoutExt.exe; .\\build\\$fileNameWithoutExt.exe"
   },
   "code-runner.customCommand": "",
   "code-runner.defaultLanguage": "cpp",
