@@ -42,7 +42,7 @@ public:
                 return res;
             }
             res = 0;
-            int i = std::popcount((unsigned)s) + 1;
+            int i = std::popcount((unsigned)s) + 1; // idx
             for (int j = 1; j <= n; ++j) {
                 if (((s >> (j - 1)) & 1) == 0 && (i % j == 0 || j % i == 0)) {
                     res += dfs(s | (1 << (j - 1)));
@@ -53,14 +53,17 @@ public:
         return dfs(0);
     }
 
-    /// 状压dp
+    /// 状压dp：用位集合表示状态空间，对集合进行动态规划
+    ///
+    /// 状压 DP的一般结构
+    /// dp[mask] = 在“当前集合 mask”的情况下的最优解 / 方案数 / 可行性
     int countArrangement3(int n) {
         int N = 1 << n;
         std::vector<int> dp(N, 0);
         dp[0] = 1;
 
         for (int s = 0; s < N; ++s) {
-            int i = std::popcount((unsigned)s) + 1;
+            int i = std::popcount((unsigned)s) + 1; // idx
             for (int j = 1; j <= n; ++j) {
                 if ((s >> (j - 1)) & 1) continue;
                 if (i % j == 0 || j % i == 0) {
